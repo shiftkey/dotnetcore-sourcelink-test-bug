@@ -53,10 +53,9 @@ $ ./repro.sh
 Microsoft (R) Build Engine version 16.2.37902+b5aaefc9f for .NET Core
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Restore completed in 31.32 ms for /Users/shiftkey/src/dotnetcore-sourcelink-test-bug/dotnetcore-sourcelink-test-bug.csproj.
+  Restore completed in 117.76 ms for /Users/shiftkey/src/dotnetcore-sourcelink-test-bug/dotnetcore-sourcelink-test-bug.csproj.
   dotnetcore-sourcelink-test-bug -> /Users/shiftkey/src/dotnetcore-sourcelink-test-bug/bin/Release/netstandard2.0/dotnetcore-sourcelink-test-bug.dll
-  dotnetcore-sourcelink-test-bug -> /Users/shiftkey/src/dotnetcore-sourcelink-test-bug/bin/Release/net45/dotnetcore-sourcelink-test-bug.dll
-sourcelink test passed: lib/net45/dotnetcore-sourcelink-test-bug.dll
+  Successfully created package '/Users/shiftkey/src/dotnetcore-sourcelink-test-bug/bin/Release/dotnetcore-sourcelink-test-bug.1.0.0.nupkg'.
 sourcelink test passed: lib/netstandard2.0/dotnetcore-sourcelink-test-bug.dll
 ```
 
