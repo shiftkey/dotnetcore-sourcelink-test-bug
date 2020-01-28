@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
     <RootNamespace>dotnetcore_sourcelink_test_bug</RootNamespace>
+    <DebugType>embedded</DebugType>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net45'">
