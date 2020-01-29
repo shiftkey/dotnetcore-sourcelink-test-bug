@@ -23,18 +23,21 @@ Restore was successful.
 Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Core
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Restore completed in 161.78 ms for /Users/shiftkey/src/dotnetcore-sourcelink-test-bug/dotnetcore-sourcelink-test-bug.csproj.
-  dotnetcore-sourcelink-test-bug -> /Users/shiftkey/src/dotnetcore-sourcelink-test-bug/bin/Release/netstandard2.0/dotnetcore-sourcelink-test-bug.dll
-  Successfully created package '/Users/shiftkey/src/dotnetcore-sourcelink-test-bug/bin/Release/dotnetcore-sourcelink-test-bug.1.0.0.nupkg'.
+  Restore completed in 27.55 ms for /home/shiftkey/src/dotnetcore-sourcelink-test-bug/dotnetcore-sourcelink-test-bug.csproj.
+  dotnetcore-sourcelink-test-bug -> /home/shiftkey/src/dotnetcore-sourcelink-test-bug/bin/Release/netstandard2.0/dotnetcore-sourcelink-test-bug.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
 1 Documents without URLs:
-74a35b2e0310ee692c4338531afedfe18376f44d57ebf83466e7e6a5b80e2d14 sha256 csharp /var/folders/pp/1_6b120j6cs4w1bmhk9qgmy80000gn/T/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+cc2dfcd56f5a115cc05c27d10c7c4b1545b3232fbbd18c0064fea0c99a24091f sha256 csharp /tmp/.NETStandard,Version=v2.0.AssemblyAttributes.cs
 1 Documents with errors:
-6c6ec6949983558b18c43497e03740805aa86c3a092c42e49d39c083184f34ac sha256 csharp /Users/shiftkey/src/dotnetcore-sourcelink-test-bug/obj/Release/netstandard2.0/dotnetcore-sourcelink-test-bug.AssemblyInfo.cs
-https://raw.githubusercontent.com/shiftkey/dotnetcore-sourcelink-test-bug/a260868a9c2201bd249665fabe4cdab485a18cd1/obj/Release/netstandard2.0/dotnetcore-sourcelink-test-bug.AssemblyInfo.cs
+16b05566980c715287c2d8427a4627e52b0979f43211a8d3d4ae7d90c9b54555 sha256 csharp /home/shiftkey/src/dotnetcore-sourcelink-test-bug/obj/Release/netstandard2.0/dotnetcore-sourcelink-test-bug.AssemblyInfo.cs
+https://raw.githubusercontent.com/shiftkey/dotnetcore-sourcelink-test-bug/e707de6428305d6a2bd997a516b5444592421cfd/obj/Release/netstandard2.0/dotnetcore-sourcelink-test-bug.AssemblyInfo.cs
 error: url failed NotFound: Not Found
 sourcelink test failed
-failed for lib/netstandard2.0/dotnetcore-sourcelink-test-bug.dll
-1 files did not pass in bin/Release/dotnetcore-sourcelink-test-bug.1.0.0.nupkg
 ```
 
 The last part is the relevant bug report, and this seems to be a combination of:
