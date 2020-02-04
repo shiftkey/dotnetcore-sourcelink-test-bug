@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <EmbedUntrackedSources>false</EmbedUntrackedSources>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <TargetFrameworkMonikerAssemblyAttributesPath>$([System.IO.Path]::Combine('$(IntermediateOutputPath)','$(TargetFrameworkMoniker).AssemblyAttributes$(DefaultLanguageSourceExtension)'))</TargetFrameworkMonikerAssemblyAttributesPath>
   </PropertyGroup>
 </Project>
